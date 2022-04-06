@@ -21,23 +21,14 @@ http://www.springframework.org/schema/context/spring-context.xsd">
 </bean>
 
 <bean class="com.springcore.student" name="stud2">
-	<property name="rollNo">
-		<value>11</value>
-	</property>
-	
-	<property name="name">
-		<value>Priya</value>
-	</property>
+	<property name="rollNo" value="12"/>
+		
+	<property name="name" value="Riya"/>
 </bean>
 
-<bean class="com.springcore.student" name="stud1">
-	<property name="rollNo">
-		<value>11</value>
-	</property>
-	
-	<property name="name">
-		<value>Priya</value>
-	</property>
+<bean class="com.springcore.student" name="stud3"
+	p:rollNo="13" p:name="Jaya">
+
 </bean>
 
 </beans>
