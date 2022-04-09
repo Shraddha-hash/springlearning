@@ -28,4 +28,9 @@ http://www.springframework.org/schema/context/spring-context.xsd">
 
 <bean class="com.springcore.constructorInj.person" name="person1" c:name="Divya" c:id="55" c:c-ref="cer1" c:phone="1234567890,1234567809"/>
 
+<bean class="com.springcore.constructorInj.addition" name="add">
+	<constructor-arg value="11" type="int" index="1"></constructor-arg>
+	<constructor-arg value="12" type="int" index="0"></constructor-arg>
+</bean>
+
 </beans>
